@@ -11,6 +11,7 @@
 |7    |[No Space Left On Device][Day7]  |[&#10004;](./Day7/part1.dart)  |[&#10004;](./Day7/part2.dart)  |
 |8    |[Treetop Tree House][Day8]       |[&#10004;](./Day8/part1.dart)  |[&#10004;](./Day8/part2.dart)  |
 |9    |[Rope Bridge][Day9]              |[&#10004;](./Day9/part1.dart)  |[&#10004;](./Day9/part2.dart)  |
+|10   |[Cathode-Ray Tube][Day10]        |[&#10004;](./Day10/part1.dart) |[&#10004;](./Day10/part2.dart) |
 
 [Day1]: https://adventofcode.com/2022/day/1
 [Day2]: https://adventofcode.com/2022/day/2
@@ -21,3 +22,4 @@
 [Day7]: https://adventofcode.com/2022/day/7
 [Day8]: https://adventofcode.com/2022/day/8
 [Day9]: https://adventofcode.com/2022/day/9
+[Day10]: https://adventofcode.com/2022/day/10
