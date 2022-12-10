@@ -6,7 +6,6 @@ void main() async {
   final instructions = input.map((e) => Instruction.parse(e));
 
   var value = 1;
-  var cycle = 1;
   var crt = List<String>.empty(growable: true);
   crt.add('');
   for (var instruction in instructions) {
@@ -21,7 +20,6 @@ void main() async {
         crt.last = crt.last + '.';
       }
       value = instruction.execute(value);
-      ++cycle;
     } while (!instruction.completed);
   }
 
