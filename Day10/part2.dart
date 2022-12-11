@@ -12,9 +12,7 @@ void main() async {
     do {
       if (crt.last.length == 40) crt.add('');
       final pixelPostion = crt.last.length + 1;
-      if (pixelPostion == value ||
-          pixelPostion == value + 1 ||
-          pixelPostion == value + 2) {
+      if (pixelPostion >= value && pixelPostion <= value + 2) {
         crt.last = crt.last + '#';
       } else {
         crt.last = crt.last + '.';
